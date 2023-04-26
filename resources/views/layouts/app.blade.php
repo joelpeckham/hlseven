@@ -4,6 +4,7 @@
 <head>
     <title>@yield('title')</title>
     {{-- Styles --}}
+    @vite('resources/css/app.css')
     <link href="{{ asset('vendor/bladewind/css/animate.min.css') }}" rel="stylesheet" />
     <link href="{{ asset('vendor/bladewind/css/bladewind-ui.min.css') }}" rel="stylesheet" />
     @livewireStyles
